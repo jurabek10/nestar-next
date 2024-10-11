@@ -28,7 +28,7 @@ const TrendProperties = (props: TrendPropertiesProps) => {
 	const [likeTargetProperty] = useMutation(LIKE_TARGET_PROPERTY);
 
 	const {
-		loading: getProperties,
+		loading: getPropertiesLoading,
 		data: getPropertiesData,
 		error: getAgentPropertiesError,
 		refetch: getPropertiesRefetch,
